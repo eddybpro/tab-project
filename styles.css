@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b5b5b5;
+    font-size: 16px;
+}
+
+.header{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header .title{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+}
+
+.content div{
+    flex: 1;
+}
+
+.content .img-container{
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.content .img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .text-container{
+    background-color: #fff;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.content .text-container .buttons{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.content .text-container .buttons .btn{
+    display: inline-block;
+    padding: .6rem 1rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    width: calc(100% / 3);
+    border: none;
+    background-color: #dcdbdb;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.content .text-container .buttons .btn:hover{
+    background-color: #87fad9;
+}
+
+.hover:hover{
+    background-color: #87fad9 !important;
+    color: #4d6961;
+    font-size: 2rem;
+}
+
+.content .text-container .buttons .history{
+    border-top-left-radius: .5rem;
+    background-color: #fff;
+}
+
+.content .text-container .buttons .history:hover{
+    background-color: #fff;
+    color: #222;
+}
+
+.content .text-container .buttons .vision{
+    margin: 0 -.25rem;
+}
+
+.content .text-container .buttons .goals{
+    border-top-right-radius: .5rem;
+}
+
+.content .text-container .para{
+    padding: 1rem;
+}
+
+.content .text-container .para .para-title{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.content .text-container .para .txt-content{
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+/* Media quiries */
+
+@media screen and (min-width:768px) {
+    .content{
+        padding: 0 1rem;
+    }
+    
+}
+
+@media screen and (min-width:994px) {
+    .content{
+        padding: 0 1rem;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
